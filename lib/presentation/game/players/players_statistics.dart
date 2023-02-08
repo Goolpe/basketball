@@ -74,6 +74,7 @@ class PlayersStatistics extends StatelessWidget {
           Expanded(
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
+              physics: const BouncingScrollPhysics(),
               child: PlayersTable(
                 columnWidth: 80,
                 children: [

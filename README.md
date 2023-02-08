@@ -1,16 +1,12 @@
-# basketball
+Basketball screen (iOS and Android)
 
-A new Flutter project.
+# How to Start
 
-## Getting Started
+<ul>
+  <li>Check that flutter version is 3.7 or above</li>
+  <li>flutter run</li>
+</ul>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tested on
+- iOS Simulator 14 Pro
+- Android Simulator Pixel 5

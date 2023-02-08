@@ -20,10 +20,12 @@ class GameStatisticsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Игра'),
+        centerTitle: true,
       ),
       body: TabsWrapper(
         length: 2,
         child: (controller, activeIndex) => CustomScrollView(
+          physics: const BouncingScrollPhysics(),
           slivers: <Widget>[
             SliverList(
               delegate: SliverChildListDelegate(
